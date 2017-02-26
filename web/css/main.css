@@ -1,0 +1,704 @@
+/*/////////////////////////////////////////*/
+/* MAIN */
+/* HOME */
+/* About */
+/* Skills */
+/* Experiance and Education*/
+/* Portfolio */
+/* Reference */
+/* Contact */
+/*/////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////*/
+/* MAIN */
+/*/////////////////////////////////////////*/
+body {
+  background: #f3f3f3;
+  /*margin-bottom: 50px;*/
+  font-family: ralewayregular;
+}
+.mainbody{
+  padding: 0;
+}
+
+.login-margin{
+  margin: 20% 0 10% 0;
+  /*margin-bottom: 60px;*/
+}
+.site-error{
+  padding: 10%;
+}
+#scroll-style::-webkit-scrollbar-track {
+  background-color: #d5d0c8;
+}
+#scroll-style::-webkit-scrollbar {
+  width: 6px;
+  background-color: #d5d0c8;
+}
+#scroll-style::-webkit-scrollbar-thumb {
+  background-color: #524937;
+}
+.navbar-default {
+    font-family: bebas;
+    /* background-color: #FFFFFF; */
+    border-color: #524937;
+    border-top-width: 2px;
+}
+@media (max-width: 768px){
+  .navbar-collapse{
+    background-color: #fff;
+  }
+  .home-navbar .navbar-nav li a{
+    color: #524937 !important;
+  }
+}
+
+.home-navbar {
+    background: transparent;
+    position: absolute;
+}
+@media (min-width: 768px){
+  .home-navbar .navbar-nav li a {
+    color: #fff !important;
+  }
+}
+.home-navbar .navbar-nav li a:hover {
+  background-color: #524937;
+  color: #b0e508 !important;
+}
+.navbar-default .navbar-nav .active{
+  background-color: #524937;
+  color: #b0e508;
+}
+.navbar-default .navbar-nav li a {
+  color: #524937;
+}
+.navbar-default .navbar-nav li a:hover {
+  background-color: #524937;
+  color: #b0e508;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  font-size: 16px;
+  float: none;
+  vertical-align: top;
+  padding-top: 0;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .navbar .navbar-nav {
+    font-size: 20px;
+  }
+}
+.page-title {
+  width: 450px;
+  font-family: 'sansationregular';
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+.page-title p {
+  color: #b0e508;
+  display: inline-block;
+  padding: 0px 6px 0px 6px;
+  border-bottom: solid #524937 4px;
+}
+.page-title p:hover {
+  color: #524937;
+  display: inline-block;
+  padding: 0px 6px 0px 6px;
+  border-bottom: solid #b0e508 4px;
+  background-color: #b0e508;
+}
+.page-subheading {
+  font-family: ralewayregular;
+  font-size: 17px;
+}
+.customButton {
+  border: 2px solid #524937;
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.customButton:hover {
+  background-color: #524937;
+  color: #d5d0c8;
+}
+
+
+/*/////////////////////////////////////////*/
+/*HOME*/
+/*/////////////////////////////////////////*/
+.home {
+  padding: 0;
+  overflow: hidden;
+}
+.bgimage {
+  background-image: url("../uploads/laptop.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+.overlay:before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  display: block;
+  /*background-color: #000;*/
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.bgimage * {
+  position: relative;
+  /* hack */
+}
+.text {
+  font-family: ralewayregular;
+  color: #d5d0c8;
+  bottom: 38px;
+  height: 200px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80%;
+  text-align: center;
+}
+.home-heading h1 {
+  font-size: 50px;
+      font-weight: 900;
+}
+.home-heading a{
+  text-decoration: none;
+}
+.home-heading span {
+  color: #b0e508;
+}
+.intro {
+  font-size: 16px;
+}
+.intro > span{
+    padding: 0 15% 0 15%;
+    display: block;
+}
+}
+@media (max-width: 768px) {
+  .home-heading {
+    font-size: 25px;
+  }
+  .intro {
+    font-size: 15px;
+  }
+}
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /*letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent; }
+}
+
+/*/////////////////////////////////////////*/
+/* About */
+/*/////////////////////////////////////////*/
+
+.about {
+  margin-top: 2%;
+  margin-bottom: 60px;
+}
+.photograph {
+  width: 85%;
+  height: auto;
+  display: block;
+  margin: 5% auto 5% auto;
+  padding: 3px;
+}
+.about-text {
+  width: 80%;
+  font-family: ralewayregular;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-text a{
+  text-decoration: none;
+  color: #524937;
+}
+.about-name {
+  font-size: 45px;
+}
+.about-subheading {
+  font-size: 20px;
+  margin-top: -13px;
+}
+.about-scrollbar {
+  height: 180px;
+  background: #d5d0c8;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+.about-scrollbar p {
+  margin: 8px;
+}
+.about-button {
+  clear: left;
+  text-align: center;
+  font-size: 20px;
+  color: #524937;
+}
+.fix-width-100 {
+  width: 100px;
+  display: inline-block;
+}
+.margin-right-5 {
+  margin-right: 5px;
+}
+.bottom-margin {
+  padding: 10px;
+  display: inline-block;
+}
+
+/*/////////////////////////////////////////*/
+/* Skills */
+/*/////////////////////////////////////////*/
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+    position: relative;
+}
+.skills-container{
+    padding: 1% 1% 6%;
+    margin-left: 2%;
+    margin-bottom: 60px;
+}
+.skillBox{
+    margin-bottom: 35px;
+    min-height: 100px;
+}
+.bar-container{
+    position: relative;
+}
+.text-container{
+    margin-left: 100px;
+    margin-top: 24px;
+}
+.roundBar-custom,
+.percent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.percent {
+    z-index: 10;
+    font-size: 18px;
+    color: #5b4c5c;
+    line-height: 75px;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-left: 25px;
+    vertical-align: middle;
+}
+
+.roundBar-custom{
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px !important;
+}
+.skillname{
+    font-family: ralewayregular;
+    /*text-align: center;*/
+    font-size: 18px;
+    font-weight: bold;
+}
+.skilldescription{
+    font-family: ralewayregular;
+    /*text-align: center;*/
+    font-size: 15px;
+    /*margin: 13px;*/
+}
+
+/*/////////////////////////////////////////*/
+/* Experiance and Education*/
+/*/////////////////////////////////////////*/
+        
+.experiance-container{
+    padding: 1% 1% 6%;
+    margin-left: 2%;
+    margin-bottom: 60px;
+}
+.customAccordion{
+    font-family: ralewayregular;
+    margin: 2%;
+}
+.ui-widget {
+    font-family: ralewayregular;
+    /* font-family: Verdana,Arial,sans-serif; */
+    /* font-size: 1.1em; */
+}
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 18px 0 0 0;
+    padding: .8em .5em .8em 2em;
+    min-height: 0;
+    font-size: 100%;
+}
+
+.customAccordion h3::before {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.customAccordion h3::after, .customAccordion h3::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 1.5%;
+    width: 14px;
+    height: 2px;
+    background-color: #524937;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+}
+
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+    display: none;
+}
+.graduation-cap-custom{
+    position: absolute;
+    left: 1em;
+    font-size: 1.2em;
+    top: 50%;
+    margin-top: -9px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr{
+    border-color: #524937;
+    border-width: 3px;
+    border-radius: 2px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl{
+    border-color: #524937;
+    border-width: 3px;
+    border-radius: 2px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    border: 2px solid #524937; 
+    background: #fff;
+    color: #524937;
+}
+.ui-widget-content {
+    border: 0px;
+    /* background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x; */
+    background: transparent;
+    color: #524937;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+  border: 2px solid #524937;
+  background: #524937;
+  font-weight: normal;
+  color: #fff;
+  border-bottom-width: 1px;
+}
+.customAccordionHeader{
+    font-size: 18px;
+    margin-left: 1.5em;
+}
+.year{
+    font-size: 18px;
+    font-weight: bold;
+}
+.customAccordionContent span{
+  font-weight: bold;
+  font-size: 1.25em;
+  line-height: 2.8em
+}
+.customAccordionContent ul{
+    color: #524937;
+    font-size: 16px;
+}
+.customAccordionContent li{
+    padding-left: 1%;
+}
+.customAccordionContent ul li:before{
+    content:"- ";
+    position:relative;
+    left: -15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.customAccordionContent ul li{
+    display: block;
+    text-indent:-5px;
+}
+
+.briefcaseCustom{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+/*/////////////////////////////////////////*/
+/* Portfolio */
+/*/////////////////////////////////////////*/
+.portfolioContainer{
+    padding-top: 2%;
+        margin-bottom: 60px;
+}
+.portfolioScroll{
+    height: auto;
+    overflow-y: scroll;
+    /*padding: 20px 20px 70px;*/
+    /*margin-left: 30px;*/
+}
+.portfolio{
+    /*height: 40px;*/
+    /*background-color: #003366;*/
+    padding: 0;
+    cursor: pointer;
+}
+.p-title{
+  padding-left: 15px;
+}
+.imageButton{
+  width: 100%;
+
+    padding: 0px;
+    margin-bottom: 0;
+
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    /* cursor: pointer; */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+     background-image: none; 
+     border: 0px ; 
+     border-radius: 0px; 
+}
+.image {
+    position: relative;
+    /*width:300px;*/
+    height:250px;
+    overflow:hidden;
+    background:url(assets/img/fifa13.jpg);
+    background-size:cover;
+    background-size: 100% 100% !important;
+}
+.overlayPortfolio{
+    background:rgba(0,0,0,.75);
+    text-align:center;
+    /*padding: 80px 0 93px 0;*/
+    padding: 27% 0 80% 0;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+.image:hover .overlayPortfolio {
+    opacity:0.75;
+}
+.plus{
+    font-family: ralewayregular;
+    color:rgba(255,255,255,.85);
+    font-size:25px;
+}
+
+.modalImage{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.modalData{
+    font-family: ralewayregular;
+    font-size: 16px;
+}
+.modalData span{
+    font-weight: bold;
+}
+.modalData a{
+      color: #524937;
+}
+.modal-header{
+    font-family: ralewayregular;
+    background-color: #524937;
+    color: #d5d0c8;
+}
+.close{
+    color: #d5d0c8;
+    opacity: 0.5;
+    font-size: 25px;
+}
+.modal-body{
+    background-color: #d5d0c8;
+    padding-bottom: 0;
+}
+.modal-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.modal-footer{
+    text-align: center;
+}
+.modalClose{
+    font-family: ralewayregular;
+    font-size: 20px;
+}
+
+
+/*/////////////////////////////////////////*/
+/* Reference */
+/*/////////////////////////////////////////*/
+
+.referencesContainer{
+    font-family: ralewayregular;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 75%;
+    position: relative;
+    z-index: 1;
+        margin-bottom: 60px;
+}
+.referenceStyle{
+    background-color: #FFFFFF;
+    //padding: 2%;
+    //margin: 1%;
+}
+.flex-viewport>ul {
+    margin: 0;
+    -moz-padding-start: 0;
+    -webkit-padding-start: 0;
+    -khtml-padding-start: 0;
+    -o-padding-start: 0;
+    padding-start: 0;
+    padding: 0;
+}
+
+.flex-viewport {
+    //min-height: 400px;
+    width: 90%;
+    margin: 40px auto;
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0;
+}
+.unslider {
+    overflow: visible !important;
+}
+.unslider-arrow {
+    display: block;
+    width: 32px;
+    height: 32px;
+
+    top: 50%;
+    right: -50px;
+    left: auto;
+    margin-top: -16px;
+
+    overflow: hidden;
+
+    background: #524937 no-repeat 50% 50%;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==');
+    background-size: 7px 11px;
+
+    border-radius: 32px;
+    text-indent: -999em;
+
+    opacity: .6;
+    transition: opacity .2s;
+  }
+.unslider-arrow:hover {
+    opacity: 1;
+}
+
+.unslider-arrow.prev {
+    /*left: -50px;*/
+    right: auto;
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.unslider-nav {
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    right: 0;
+    top: auto;
+    margin: 0;
+  }
+
+.demo > div {
+    position: relative;
+    padding: 40px;
+    margin-bottom: 20px;
+
+    background: #fff;
+    color: #666;
+
+    text-shadow: none;
+
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0,0,0,.1);
+}
+
+.lead{
+    font-size: 16px;
+    padding: 0 6% 0 6%;
+}
+.reviewer{
+      font-size: 22px;
+}
+.reviewer-details{
+    text-align: left;
+    padding: 0 6% 0 6%;
+    
+}
+
+/*/////////////////////////////////////////*/
+/* Contact */
+/*/////////////////////////////////////////*/
+
+.contact-container{
+
+    margin-bottom: 60px;
+}
+#map {
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+}

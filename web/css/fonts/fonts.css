@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'ralewayregular';
+  font-style: normal;
+  font-weight: 300;
+  src: url('raleway/raleway-v11-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Raleway Light'), local('Raleway-Light'),
+       url('raleway/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('raleway/raleway-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('raleway/raleway-regular-webfont.woff') format('woff'), /* Modern Browsers */
+       url('raleway/raleway-regular-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('raleway/raleway-regular-webfont.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'sansationregular';
+  font-style: normal;
+  font-weight: 300;
+  src: url('raleway/raleway-v11-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Raleway Light'), local('Raleway-Light'),
+       url('raleway/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('raleway/raleway-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('raleway/raleway-regular-webfont.woff') format('woff'), /* Modern Browsers */
+       url('raleway/raleway-regular-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('raleway/raleway-regular-webfont.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'bebas';
+  font-style: normal;
+  font-weight: 300;
+  src: url('raleway/raleway-v11-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Raleway Light'), local('Raleway-Light'),
+       url('raleway/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('raleway/raleway-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('raleway/raleway-regular-webfont.woff') format('woff'), /* Modern Browsers */
+       url('raleway/raleway-regular-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('raleway/raleway-regular-webfont.svg#Raleway') format('svg'); /* Legacy iOS */
+}
